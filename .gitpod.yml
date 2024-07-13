@@ -1,0 +1,10 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: javac HelloWorld.java
+    command: java HelloWorld
+
+vscode:
+  extensions:
+    - vscjava.vscode-java-pack
